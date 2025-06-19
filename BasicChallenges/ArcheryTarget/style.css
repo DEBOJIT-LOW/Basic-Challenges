@@ -1,0 +1,71 @@
+html,
+body {
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+}
+
+.container {
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.circle1 {
+    width: 350px;
+    height: 350px;
+    background-color: black;
+    border-radius: 50%;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.circle2 {
+    width: 250px;
+    height: 250px;
+    background-color: rgb(78, 161, 234);
+    border-radius: 50%;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.circle3 {
+    width: 150px;
+    height: 150px;
+    background-color: red;
+    border-radius: 50%;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.circle4 {
+    width: 70px;
+    height: 70px;
+    background-color: yellow;
+    border-radius: 50%;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#fake-arrow {
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    pointer-events: none;
+    display: none;
+    z-index: 1000;
+    /* transform: rotate(-30deg); */
+}
+
+.circle1:hover {
+    cursor: url('bow-arrow.cur') 0 0, auto;
+}
